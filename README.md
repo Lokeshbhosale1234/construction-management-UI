@@ -1,27 +1,28 @@
 # Construction Field Management App
 
-This is a frontend web application built as part of a Frontend Internship Assignment.  
-The app helps manage construction projects and allows users to submit Daily Progress Reports (DPR).
+This project is a frontend web application developed as part of a Frontend Internship Assignment.  
+The application helps manage construction projects and allows users to submit Daily Progress Reports (DPR).
 
 ---
 
-## Tech Stack
+## Tech Stack Used
 
 - React (Vite)
 - JavaScript (ES6)
 - Tailwind CSS
 - React Router
 - Fetch API
+- PostCSS
 
 ---
 
 ## Features Implemented
 
-- Login page with basic validation
-- Project listing page displaying projects in card format
-- Daily Progress Report (DPR) form
-- Image upload with preview (up to 3 images)
-- Responsive UI using Tailwind CSS
+- Login page with basic credential validation
+- Project list page displaying construction projects in card format
+- Daily Progress Report (DPR) submission form
+- Image upload with preview (maximum 3 images)
+- Responsive UI built using Tailwind CSS
 - Navigation between pages using React Router
 
 ---
@@ -31,6 +32,59 @@ The app helps manage construction projects and allows users to submit Daily Prog
 - Backend API integration
 - Database storage
 - Real authentication system
-- File uploads to a server
+- Permanent storage of uploaded images
 
-All data used in the project is mock/static data.
+All project data is currently handled using mock/static data.
+
+---
+
+## How to Clone and Run the App Locally
+
+### 1. Clone the repository
+
+git clone https://github.com/YOUR_USERNAME/YOUR_REPOSITORY_NAME.git
+
+### 2. Navigate to the project folder
+
+cd YOUR_REPOSITORY_NAME
+
+### 3. Install dependencies
+
+npm install
+
+### 4. Run the development server
+
+npm run dev
+
+### 5. Open in browser
+
+http://localhost:5173
+
+---
+
+## Project Structure
+
+src
+ ├── components
+ ├── pages
+ ├── data
+ ├── App.jsx
+ ├── main.jsx
+ └── index.css
+
+---
+
+## Known Issues / Limitations
+
+- Login credentials are hardcoded
+- Form data is not stored permanently
+- Uploaded images are only previewed and not uploaded to a server
+- No backend or database integration
+
+---
+
+## Assignment Deliverables
+
+- GitHub Repository (Public)
+- Deployed Preview Link
+- Video Walkthrough explaining the implementation
